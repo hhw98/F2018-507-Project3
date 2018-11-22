@@ -415,7 +415,6 @@ def interactive_prompt():
                 print(element)
                 #print(delim.join((str(i[:5]) + '...') if len(str(i)) > 5 else str(i) for i in element))
                 for i in element:
-                    print(i)
                     print(delim.join('{0: <5}... ...'.format(str(i[:5])) if len(str(i)) > 5 else ('{0: <5}... ...'.format(str(i[:5]))) ))
                 '''
             #for r in cur:
